@@ -33,6 +33,9 @@ jobs:
 
       - name: install dependecies
         run: yarn install
+      
+      - name: Test unit
+        run: yarn test:unit 
 
       # Runs a single command using the runners shell
       - name: Build page
